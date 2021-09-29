@@ -8,8 +8,5 @@ public class ControllersCliente {
 		// TODO Auto-generated method stub
 		
 		ClienteDao clientedao = new ClienteDao();
-		
-		
 	}
-
 }
