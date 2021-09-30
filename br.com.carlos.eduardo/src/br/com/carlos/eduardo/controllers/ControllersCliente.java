@@ -16,7 +16,6 @@ public class ControllersCliente {
 		
 		boolean controller1 = true;
 		String menu1;
-		
 		ProdutoDao produtodao = new ProdutoDao();
 		
 		boolean controller2 = true;
