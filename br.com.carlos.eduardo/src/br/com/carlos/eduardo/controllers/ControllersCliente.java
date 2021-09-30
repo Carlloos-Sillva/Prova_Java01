@@ -30,7 +30,7 @@ public class ControllersCliente {
 				cliente.setNome(JOptionPane.showInputDialog("Digite seu Nome Completo:"));
 				cliente.setIdade(Integer.parseInt(JOptionPane.showInputDialog("Digite sua Idade:")));
 				cliente.setTelefone(Integer.parseInt(JOptionPane.showInputDialog("Digite seu Telefone:")));
-				cliente.setEndereco(JOptionPane.showInputDialog("Digite seu Endereço:"));	
+				cliente.setEndereco(JOptionPane.showInputDialog("Digite seu EndereÃ§o:"));	
 				
 				clientedao.insert(cliente);
 				break;
@@ -61,7 +61,7 @@ public class ControllersCliente {
 					produto.setNome(JOptionPane.showInputDialog("Digite nome do produto:"));
 					produto.setMarca(JOptionPane.showInputDialog("Digite a marca do produto:"));
 					produto.setModelo(JOptionPane.showInputDialog("Digite o modelo do produto:"));
-					produto.setPreco(Integer.parseInt(JOptionPane.showInputDialog("Digite o preço do produto:")));	
+					produto.setPreco(Integer.parseInt(JOptionPane.showInputDialog("Digite o preÃ§o do produto:")));	
 					
 					produtodao.insert(produto);
 					break;
@@ -88,7 +88,7 @@ public class ControllersCliente {
 					default:{
 						JOptionPane.showMessageDialog(null, "Digite apenas numeros validos !", "Erro", 1);
 					}
-				}
+					}
 				}
 			}
 		}
