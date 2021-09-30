@@ -13,11 +13,10 @@ public class ControllersCliente {
 		// TODO Auto-generated method stub
 		
 		ClienteDao clientedao = new ClienteDao();
-		
 		boolean controller1 = true;
 		String menu1;
-		ProdutoDao produtodao = new ProdutoDao();
 		
+		ProdutoDao produtodao = new ProdutoDao();
 		boolean controller2 = true;
 		String menu2;
 		
